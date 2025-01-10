@@ -16,7 +16,7 @@ const reverseArr = (start, end, arr) =>{
       arr = reverseArr(num, len-1, arr);
       arr = reverseArr(0, len-1, arr);
       console.log("arr: ", arr);
-      return [];
+      return arr;
       // return [...arr.splice(num, len), ...arr.splice(0, num)]
   }
   
